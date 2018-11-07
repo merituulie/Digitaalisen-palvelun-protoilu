@@ -1,0 +1,53 @@
+html {
+    background-color: rgb(230,230,230);
+    text-align: center;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#otsikko {
+    margin-bottom: 5px;
+    color: rgb(250,250,250);
+    font-size: 20px;
+}
+
+#otsikkoapua {
+    color: rgb(0,0,0);
+    font-size: 20px;
+}
+
+#back {
+    font-size: 14px;
+}
+
+#salasana {
+    margin-bottom: 20px;
+}
+
+#opid {
+    margin: 5px;
+}
+
+#kirjaudu {
+    background-color:rgb(90,150,87);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#logo {
+    width: 130px;
+    height: auto;
+    border: 0px;
+}
+
+#apuateksti {
+    text-align: center;
+}
+
+#sos {
+    font-size: 14px;
+}
