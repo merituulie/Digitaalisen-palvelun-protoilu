@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+html {
+    background: #E7E5E6;
+}
+
+body {
+    background: #f7f7f7;
+    color: #545454;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+#top {
+    width: 100%;
+    height: 50px;
+    background: #5C965B; /* vihree */ 
+    color: #fff;
+    padding: 25px 0;
+    margin: 0 auto;
+}
+
+#top a:link, a:visited, a:hover, a:active {
+    color: #fff;
+}
+
+.otsikko {
+    padding: 7px 0 0 25px;
+    width: 50%;
+    float: left;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+}
+
+.logout {
+    float: right;
+    width: 20%;
+    padding: 0 40px 0 0;
+    text-align: right;
+    font-size: 40px;
+}
+
+#sivustot {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#sivustot img {
+    height: 170px;
+    width: 170px;
+    padding: 20px;
+    margin: 30px;
+    box-shadow: 0 0 10px #999;
+    background: #fff;
+}
