@@ -36,6 +36,8 @@ body {
     background-color:rgb(90,150,87);
     padding: 10px;
     border-radius: 3px;
+    margin-bottom: 50px;
+    display: inline-block;
 }
 
 #logo {
