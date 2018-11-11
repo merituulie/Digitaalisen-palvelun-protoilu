@@ -1,1 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<style>
+.collapsible {
+    background-color: #5C965B;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+  	margin:auto;
+  	display:block;
+}
+    
+
+table {
+	text-align: center;
+
+}
+p.paiva {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    font-style: garamond;
+    color: grey;
+    font-size: 25px
+
+}
+
+.active, .collapsible:hover {
+    background-color: #568C55;
+}
+
+.content {
+    padding: 10px;
+    color: white;
+    display: none;
+    width: 73%;
+    text-align: center;
+    overflow: hidden;
+    background-color: #568C55;
+    margin:auto;
+}
+</style>
+</head>
+
+<body>
+
+<table align="center"> 
+	<tr>
+    <h2><span class="fa fa-calendar-o fa-fw"></span>  Lukujärjestys</h2>
+    <tr><p>12.11.-16.11.2018</p> </tr>
+</table>
+
+<table style="width:80%" align="center">
+  <tr>
+    <th></th>
+  </tr>
+  <tr align="center">
+    <th><input type="text" style="width: 230px;" placeholder="Ryhmätunnus/Kurssitunnus..">   <span class="fa fa-search fa-fw"> </th> 
+  </tr>
+</table>
+
+<p class=paiva>Maanantai:</p>
+<button class="collapsible"><b>08:00 - 10:30</b>                     PA/6205<br>Opiskelu- ja työelämätaitojen kehittäminen, osa 2 COM1TN010B-3001</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+</div>
+
+<br>
+
+<p class=paiva>Tiistai:</p>
+<button class="collapsible"><b>09:00 - 11:45</b><br>PA/6205<br>Communication in Multicultural Environments COM1TN012-3004</button>
+<div class="content">
+  <p>Tietoja luokasta/tehtävistä</p>
+</div>
+
+<br>
+
+<button class="collapsible"><b>12:00 - 14:45</b><br>PA/6205<br>Liiketoiminnan matematiikka BUS1TN010-3003</button>
+<div class="content">
+  <p>Tietoja luokasta/tehtävistä</p>
+</div>
+
+<br>
+
+<button class="collapsible"><b>15:00 - 17:30</b><br>PA/6205<br>Käyttäjäkokemus DIG1TN002-3002</button>
+<div class="content">
+  <p>Tietoja luokasta/tehtävistä</p>
+</div>
+
+<br>
+
+<p class=paiva>Keskiviikko:</p>
+<button class="collapsible"><b>12:00 - 14:45</b><br>PA/6205<br>Liiketoiminnan matematiikka BUS1TN010-3003</button>
+<div class="content">
+  <p>Tietoja luokasta/tehtävistä</p>
+</div>
+
+<br>
+
+<button class="collapsible"><b>12:00 - 14:45</b><br>PA/6205<br>Liiketoiminnan matematiikka BUS1TN010-3003</button>
+<div class="content">
+  <p>Tietoja luokasta/tehtävistä</p>
+</div>
+
+<br>
+
+<button class="collapsible"><b>12:00 - 14:45</b><br>PA/6205<br>Liiketoiminnan matematiikka BUS1TN010-3003</button>
+<div class="content">
+  <p>Tietoja luokasta/tehtävistä</p>
+</div>
+
+<br>
+
+<button class="collapsible"><b>12:00 - 14:45</b><br>PA/6205<br>Liiketoiminnan matematiikka BUS1TN010-3003</button>
+<div class="content">
+  <p>Tietoja luokasta/tehtävistä</p>
+</div>
+
+<br>
+
+<button class="collapsible"><b>12:00 - 14:45</b><br>PA/6205<br>Liiketoiminnan matematiikka BUS1TN010-3003</button>
+<div class="content">
+  <p>Tietoja luokasta/tehtävistä</p>
+</div>
+
+<br>
+
+<p class=paiva>Torstai:</p>
+<button class="collapsible"><b>12:00 - 14:45</b><br>PA/6205<br>Liiketoiminnan matematiikka BUS1TN010-3003</button>
+<div class="content">
+  <p>Tietoja luokasta/tehtävistä</p>
+</div>
+
+<br>
+
+<button class="collapsible"><b>12:00 - 14:45</b><br>PA/6205<br>Liiketoiminnan matematiikka BUS1TN010-3003</button>
+<div class="content">
+  <p>Tietoja luokasta/tehtävistä</p>
+</div>
+
+<br>
+
+<button class="collapsible"><b>12:00 - 14:45</b><br>PA/6205<br>Liiketoiminnan matematiikka BUS1TN010-3003</button>
+<div class="content">
+  <p>Tietoja luokasta/tehtävistä</p>
+</div>
+
+<br>
+
+<p class=paiva>Perjantai:</p>
+<button class="collapsible"><b>12:00 - 14:45</b><br>PA/6205<br>Liiketoiminnan matematiikka BUS1TN010-3003</button>
+<div class="content">
+  <p>Tietoja luokasta/tehtävistä</p>
+</div>
+
+<br>
+
+<button class="collapsible"><b>12:00 - 14:45</b><br>PA/6205<br>Liiketoiminnan matematiikka BUS1TN010-3003</button>
+<div class="content">
+  <p>Tietoja luokasta/tehtävistä</p>
+</div>
+
+<br>
+
+
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
