@@ -13,45 +13,45 @@ body {
 
 #top {
     width: 100%;
-    height: 50px;
+    height: 90px;
     background: #5C965B; /* vihree */ 
     color: #fff;
     padding: 25px 0;
     margin: 0 auto;
 }
 
-#top a:link, a:visited, a:hover, a:active {
+#top a:link, #top a:visited, #top a:hover, #top a:active {
     color: #fff;
 }
 
 .otsikko {
-    padding: 7px 0 0 25px;
+    padding: 15px 0 0 40px;
     width: 50%;
     float: left;
-    font-size: 25px;
+    font-size: 45px;
     letter-spacing: 0.5px;
 }
 
 .logout {
     float: right;
     width: 20%;
-    padding: 0 40px 0 0;
+    padding: 10px 60px 0 0;
     text-align: right;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 #sivustot {
-    width: 100%;
-    max-width: 800px;
+    width: 90%;
+    height: 100%;
     margin: 20px auto;
     text-align: center;
 }
 
 #sivustot img {
-    height: 170px;
-    width: 170px;
-    padding: 20px;
-    margin: 30px;
+    height: 200px;
+    width: 200px;
+    padding: 30px;
+    margin: 60px;
     box-shadow: 0 0 10px #999;
     background: #fff;
 }
