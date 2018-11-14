@@ -60,13 +60,13 @@ p {
 	font-family: "Roboto";
 }
 
-p1 {
+p.paivamaara {
 	font-family: "Roboto";
     font-size: 20px;
 
 }
 
-p2 {
+p.ruksi {
 	font-family: "Roboto";
     font-size: 10px;
     color: light-grey;
