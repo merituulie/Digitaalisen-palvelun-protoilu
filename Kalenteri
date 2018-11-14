@@ -101,98 +101,81 @@ p1 {
 </table>
 
 <p class=paiva>Maanantai:</p>
-<button class="collapsible"><b>08:00 - 10:30</b>                     PA/6205<br>Opiskelu- ja työelämätaitojen kehittäminen, osa 2</button>
+<button class="collapsible"><b>08:00 - 10:30   </b>   PA/6205<br>Opiskelu- ja työelämätaitojen kehittäminen, osa 2</button>
 <div class="content">
-  <p>Kurssitunnus: COM1TN010B-3001 <br>Opettaja: Markku Mikkonen</p>
+  <p>Kurssitunnus: COM1TN0101-3003 <br>Opettaja: Markku Mikkonen</p>
 </div>
 
 
 <p class=paiva>Tiistai:</p>
-<button class="collapsible"><b>09:00 - 11:45 </b> PA/6205<br>Communication in Multicultural Environments</button>
+<button class="collapsible"><b>09:00 - 11:45   </b>   PA/3003<br>Communication in Multicultural Environments</button>
 <div class="content">
-  <p>Kurssitunnus: COM1TN012-3004 <br>Opettaja: Konsta Ketola</p>
+  <p>Kurssitunnus: COM1TN002-3004 <br>Opettaja: Marja Kukka</p>
 </div>
 
 <br>
 
-<button class="collapsible"><b>12:00 - 14:45 </b> PA/6205<br>Liiketoiminnan matematiikka</button>
+<button class="collapsible"><b>12:00 - 14:45   </b>   PA/5005<br>Liiketoiminta</button>
 <div class="content">
-  <p>Kurssitunnus: COM1TN012-3004 <br>Opettaja: Konsta Ketola</p>
+  <p>Kurssitunnus: BUS1TN012-3002 <br>Opettaja: Konsta Ketola</p>
 </div>
 
 <br>
 
-<button class="collapsible"><b>15:00 - 17:30   </b>   PA/6205<br>Käyttäjäkokemus</button>
+<button class="collapsible"><b>15:00 - 17:30   </b>   PA/4015<br>Käyttäjäkokemus</button>
 <div class="content">
-  <p>Kurssitunnus: COM1TN012-3004 <br>Opettaja: Marko Mittala</p>
+  <p>Kurssitunnus: DIG1TN103-2001 <br>Opettaja: Marko Mittala</p>
 </div>
 
 
 <p class=paiva>Keskiviikko:</p>
-<button class="collapsible"><b>12:00 - 14:45 </b> PA/6205<br>Liiketoiminnan matematiikka</button>
+<button class="collapsible"><b>08:00 - 9:45   </b>   PA/4201<br>Vaatimusmäärittely ja vaatimuslähtöinen testaus</button>
 <div class="content">
-  <p>Kurssitunnus: COM1TN012-3004 <br>Opettaja: Kalle Keila</p>
+  <p>Kurssitunnus: SWD8TN001-3004 <br>Opettaja: Kalle Keila</p>
 </div>
 
 <br>
 
-<button class="collapsible"><b>12:00 - 14:45 </b> PA/6205<br>Liiketoiminnan matematiikka</button>
+<button class="collapsible"><b>10:00 - 13:00   </b>   PA/4012<br>Basic 3D Design with Blender</button>
 <div class="content">
-  <p>Kurssitunnus: COM1TN012-3004 <br>Opettaja: Konsta Ketola</p>
+  <p>Kurssitunnus: MUM8TA001-10 <br>Opettaja: Konsta Ketola</p>
 </div>
 
 <br>
 
-<button class="collapsible"><b>12:00 - 14:45 </b> PA/6205<br>Liiketoiminnan matematiikka</button>
+<button class="collapsible"><b>10:00 - 11:45   </b>   PA/6005<br>ICT and Business English</button>
 <div class="content">
-  <p>Kurssitunnus: COM1TN012-3004 <br>Opettaja: Konsta Ketola</p>
+  <p>Kurssitunnus: ENG1TN003-40 <br>Opettaja: John Denver</p>
 </div>
 
 <br>
 
-<button class="collapsible"><b>12:00 - 14:45 </b> PA/6205<br>Liiketoiminnan matematiikka</button>
+<button class="collapsible"><b>12:00 - 13:45   </b>   PA/4014<br>Yrityksen toiminnot</button>
 <div class="content">
-  <p>Kurssitunnus: COM1TN012-3004 <br>Opettaja: Konsta Ketola</p>
+  <p>Kurssitunnus: BUS1TN011-40 <br>Opettaja: Konsta Ketola</p>
 </div>
 
 <br>
 
-<button class="collapsible"><b>12:00 - 14:45 </b> PA/6205<br>Liiketoiminnan matematiikka</button>
+<button class="collapsible"><b>14:00 - 16:45   </b>   PA/5005<br>Palvelinohjelmointi</button>
 <div class="content">
-  <p>Kurssitunnus: COM1TN012-3004 <br>Opettaja: Konsta Ketola</p>
+  <p>Kurssitunnus: SWD4TN020-3001 <br>Opettaja: Konsta Ketola</p>
 </div>
 
 
 <p class=paiva>Torstai:</p>
-<button class="collapsible"><b>12:00 - 14:45 </b> PA/6205<br>Liiketoiminnan matematiikka</button>
-<div class="content">
-  <p>Kurssitunnus: COM1TN012-3004 <br>Opettaja: Konsta Ketola</p>
-</div>
 
-<br>
-
-<button class="collapsible"><b>12:00 - 14:45 </b> PA/6205<br>Liiketoiminnan matematiikka</button>
-<div class="content">
-  <p>Kurssitunnus: COM1TN012-3004 <br>Opettaja: Konsta Ketola</p>
-</div>
-
-<br>
-
-<button class="collapsible"><b>12:00 - 14:45 </b> PA/6205<br>Liiketoiminnan matematiikka</button>
-<div class="content">
-  <p>Kurssitunnus: COM1TN012-3004 <br>Opettaja: Konsta Ketola</p>
-</div>
-
+<br><br><br>
 
 <p class=paiva>Perjantai:</p>
-<button class="collapsible"><b>12:00 - 14:45 </b> PA/6205<br>Liiketoiminnan matematiikka</button>
+<button class="collapsible"><b>12:00 - 13:30   </b>   PA/K1005<br>Liiketoiminnan matematiikka</button>
 <div class="content">
   <p>Kurssitunnus: COM1TN012-3004 <br>Opettaja: Konsta Ketola</p>
 </div>
 
 <br>
 
-<button class="collapsible"><b>12:00 - 14:45 </b> PA/6205<br>Liiketoiminnan matematiikka</button>
+<button class="collapsible"><b>14:00 - 15:45   </b>   PA/K1005<br>Liiketoiminnan matematiikka</button>
 <div class="content">
   <p>Kurssitunnus: COM1TN012-3004 <br>Opettaja: Konsta Ketola</p>
 </div>
