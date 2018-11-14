@@ -46,7 +46,7 @@ p.paiva {
     width: 100%;
     font-style: garamond;
     color: grey;
-    font-size: 25px
+    font-size: 15px
 }
 
 h2 {
@@ -62,11 +62,6 @@ p1 {
 	font-family: "Roboto";
     font-size: 20px;
     
-
-}
-
-.active, .collapsible:hover {
-    background-color: #568C55;
 }
 
 .content {
