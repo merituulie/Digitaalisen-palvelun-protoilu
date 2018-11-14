@@ -169,3 +169,18 @@ input[type=text], input[type=password] {
     padding-top: 200px;
     
 }
+
+#moodle, #peppi, #outlook {
+    width: 100%;
+}
+
+.x {
+    padding: 10px 0 0 900px;
+    float: right;
+    font-size: 50px;
+    position: absolute;
+}
+
+.x a:link, .x a:visited, .x a:hover, .x a:active {
+    color: #fff;
+}
