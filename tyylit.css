@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
-html {
-    background: #E7E5E6;
-}
-
 body {
     background: #f7f7f7;
     color: #545454;
@@ -43,15 +39,133 @@ body {
 #sivustot {
     width: 90%;
     height: 100%;
-    margin: 20px auto;
+    margin: 80px auto;
     text-align: center;
 }
 
 #sivustot img {
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     padding: 30px;
     margin: 60px;
-    box-shadow: 0 0 10px #999;
+    box-shadow: 0 0 15px #999;
     background: #fff;
+}
+
+.yhteys {
+    font-size: 40px;
+    margin: 90px 0 0 0;
+}
+
+.yhteys a:link, .yhteys a:visited {
+    color: #5C965B;
+    text-decoration: underline;
+}
+
+.yhteys a:hover, .yhteys a:active {
+    color: #5B9558;
+    text-decoration: none;
+}
+
+
+/* MERIN OSUUS */
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 25px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 40px;
+    display: inline-block;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 16px;
+    margin: 0 auto;
+}
+
+#salasana {
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+#opid {
+    margin: 5px;
+}
+
+#kirjaudu {
+    background-color:rgb(90,150,87);
+    color: white;
+    width: 100%;
+    padding: 30px 40px;
+    margin: 10px auto 100px auto;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    display: block;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+#kirjaudu a:link, #kirjaudu a:visited, #kirjaudu a:active, #kirjaudu a:hover {
+    color: #fff;
+    text-align: center;
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+#logo img {
+    width: 60%;
+    height: auto;
+    border: 0px;
+    padding-top: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+#aputeksti {
+    font-size: 15px;
+    padding-bottom: 400px;
+    line-height: 70px;
+}
+
+#sos {
+    font-size: 40px;
+    text-align: center;
+}
+
+#sos a:link, #sos a:visited, #back a:link, #back a:visited {
+    color: #5C965B;
+    text-decoration: underline;
+}
+
+#sos a:hover, #sos a:active, #back a:hover, #back a:active {
+    color: #5B9558;
+    text-decoration: none;
+}
+
+#apua {
+    width: 100%;
+    max-width: 800px;
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+#apua h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#back {
+    text-align: center;
+    font-size: 23px;
+    padding-top: 200px;
+    
 }
