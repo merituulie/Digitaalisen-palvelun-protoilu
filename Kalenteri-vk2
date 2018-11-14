@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="tyylit3roni.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+<style>
+
+
+
+.collapsible {
+    background-color: #5C965B;
+    color: white;
+    font-family: "Roboto";
+    cursor: pointer;
+    padding: 7px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+  	margin: auto;
+  	display: block;
+} 
+
+table {
+	text-align: center;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    
+}
+p.paiva {
+    font-weight: bold;
+    font-family: "Roboto";
+    text-align: center;
+    width: 100%;
+    font-style: garamond;
+    color: grey;
+    font-size: 25px
+}
+
+h2 {
+	font-family: "Roboto";
+
+}
+
+p {
+	font-family: "Roboto";
+}
+
+p1 {
+	font-family: "Roboto";
+    font-size: 20px;
+    
+
+}
+
+.active, .collapsible:hover {
+    background-color: #568C55;
+}
+
+.content {
+    padding: 5px;
+    color: white;
+    display: none;
+    width: 73%;
+    text-align: center;
+    overflow: hidden;
+    background-color: #568C55;
+    margin:auto;
+}
+</style>
+</head>
+
+<body style="background-color:#e6e6e6;">
+
+
+	
+<p3 align="right"><span class="fa fa-times fa-fw" text-align="right" style="font-size: 35px;"></span></p3>
+
+<h2 align="center"><span class="fa fa-calendar-o fa-fw"></span>  Lukujärjestys</h2>
+<p1 align="center"><span class="fa fa-angle-left"></span>  18.11.-22.11.2018  <span class="fa fa-angle-right"></span><br></p1>
+
+<br>
+
+<table style="width:80%" align="center">
+  <tr align="center">
+    <th><input type="text" style="width: 230px;" placeholder="Ryhmätunnus/Kurssitunnus..">  
+    <span class="fa fa-search fa-fw"></span></th>
+ </tr>
+</table>
+
+<p class=paiva>Maanantai:</p>
+<button class="collapsible"><b>08:00 - 10:30   </b>   PA/6205<br>Opiskelu- ja työelämätaitojen kehittäminen, osa 2</button>
+<div class="content">
+  <p>Kurssitunnus: COM1TN0101-3003 <br>Opettaja: Markku Mikkonen</p>
+</div>
+
+
+<p class=paiva>Tiistai:</p>
+<button class="collapsible"><b>09:00 - 11:45   </b>   PA/3003<br>Communication in Multicultural Environments</button>
+<div class="content">
+  <p>Kurssitunnus: COM1TN002-3004 <br>Opettaja: Marja Kukka</p>
+</div>
+
+<br>
+
+<button class="collapsible"><b>12:00 - 14:45   </b>   PA/5005<br>Liiketoiminta</button>
+<div class="content">
+  <p>Kurssitunnus: BUS1TN012-3002 <br>Opettaja: Konsta Ketola</p>
+</div>
+
+<br>
+
+<button class="collapsible"><b>15:00 - 17:30   </b>   PA/4015<br>Käyttäjäkokemus</button>
+<div class="content">
+  <p>Kurssitunnus: DIG1TN103-2001 <br>Opettaja: Marko Mittala</p>
+</div>
+
+
+<p class=paiva>Keskiviikko:</p>
+<button class="collapsible"><b>08:00 - 9:45   </b>   PA/4201<br>Vaatimusmäärittely ja vaatimuslähtöinen testaus</button>
+<div class="content">
+  <p>Kurssitunnus: SWD8TN001-3004 <br>Opettaja: Kalle Keila</p>
+</div>
+
+<br>
+
+<button class="collapsible"><b>10:00 - 13:00   </b>   PA/4012<br>Basic 3D Design with Blender</button>
+<div class="content">
+  <p>Kurssitunnus: MUM8TA001-10 <br>Opettaja: Konsta Ketola</p>
+</div>
+
+<br>
+
+<button class="collapsible"><b>10:00 - 11:45   </b>   PA/6005<br>ICT and Business English</button>
+<div class="content">
+  <p>Kurssitunnus: ENG1TN003-40 <br>Opettaja: John Denver</p>
+</div>
+
+<br>
+
+<button class="collapsible"><b>12:00 - 13:45   </b>   PA/4014<br>Yrityksen toiminnot</button>
+<div class="content">
+  <p>Kurssitunnus: BUS1TN011-40 <br>Opettaja: Konsta Ketola</p>
+</div>
+
+<br>
+
+<button class="collapsible"><b>14:00 - 16:45   </b>   PA/5005<br>Palvelinohjelmointi</button>
+<div class="content">
+  <p>Kurssitunnus: SWD4TN020-3001 <br>Opettaja: Konsta Ketola</p>
+</div>
+
+
+<p class=paiva>Torstai:</p>
+
+<br><br><br>
+
+<p class=paiva>Perjantai:</p>
+<button class="collapsible"><b>12:00 - 13:30   </b>   PA/K1005<br>Liiketoiminnan matematiikka</button>
+<div class="content">
+  <p>Kurssitunnus: COM1TN012-3004 <br>Opettaja: Konsta Ketola</p>
+</div>
+
+<br>
+
+<button class="collapsible"><b>14:00 - 15:45   </b>   PA/K1005<br>Liiketoiminnan matematiikka</button>
+<div class="content">
+  <p>Kurssitunnus: COM1TN012-3004 <br>Opettaja: Konsta Ketola</p>
+</div>
+
+<br>
+
+
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
