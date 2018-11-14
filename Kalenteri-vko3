@@ -46,7 +46,7 @@ p.paiva {
     width: 100%;
     font-style: garamond;
     color: grey;
-    font-size: 25px
+    font-size: 15px
 }
 
 h2 {
@@ -62,11 +62,6 @@ p1 {
 	font-family: "Roboto";
     font-size: 20px;
     
-
-}
-
-.active, .collapsible:hover {
-    background-color: #568C55;
 }
 
 .content {
@@ -136,13 +131,6 @@ p1 {
 
 <br>
 
-<button class="collapsible"><b>10:00 - 13:00   </b>   PA/4012<br>Basic 3D Design with Blender</button>
-<div class="content">
-  <p>Kurssitunnus: MUM8TA001-10 <br>Opettaja: Konsta Ketola</p>
-</div>
-
-<br>
-
 <button class="collapsible"><b>10:00 - 11:45   </b>   PA/6005<br>ICT and Business English</button>
 <div class="content">
   <p>Kurssitunnus: ENG1TN003-40 <br>Opettaja: John Denver</p>
@@ -165,7 +153,7 @@ p1 {
 
 <p class=paiva>Torstai:</p>
 
-<br><br><br>
+<br><br>
 
 <p class=paiva>Perjantai:</p>
 <button class="collapsible"><b>12:00 - 13:30   </b>   PA/K1005<br>Liiketoiminnan matematiikka</button>
