@@ -1,0 +1,65 @@
+.collapsible {
+    background-color: #5C965B;
+    color: white;
+    font-family: "Roboto";
+    cursor: pointer;
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+  	margin: auto;
+  	display: block;
+} 
+
+table {
+	text-align: center;
+}
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+    
+}
+p.paiva {
+    font-weight: bold;
+    font-family: "Roboto";
+    text-align: center;
+    width: 100%;
+    font-style: garamond;
+    color: grey;
+    font-size: 25px
+}
+
+h2 {
+	font-family: "Roboto";
+
+}
+
+p {
+	font-family: "Roboto";
+}
+
+p1 {
+	font-family: "Roboto";
+    font-size: 20px;
+    
+
+}
+
+.active, .collapsible:hover {
+    background-color: #568C55;
+}
+
+.content {
+    padding: 10px;
+    color: white;
+    display: none;
+    width: 73%;
+    text-align: center;
+    overflow: hidden;
+    background-color: #568C55;
+    margin:auto;
+}
