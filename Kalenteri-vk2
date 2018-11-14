@@ -63,9 +63,8 @@ p.paiva {
     font-family: "Roboto";
     text-align: center;
     width: 100%;
-    font-style: garamond;
     color: grey;
-    font-size: 25px
+    font-size: 15px
 }
 
 h2 {
@@ -83,11 +82,18 @@ p1 {
 
 }
 
-.active, .collapsible:hover {
+p2 {
+	font-family: "Roboto";
+    font-size: 10px;
+    color: light-grey;
+
+}
+
+.active, .collapsible {
     background-color: #568C55;
 }
 
-.active2, collapsible2:hover {
+.active2, .collapsible2 {
 	background-color: #ad2424;
     
 }
@@ -123,7 +129,7 @@ p1 {
 <p3 align="right"><span class="fa fa-times fa-fw" text-align="right" style="font-size: 35px;"></span></p3>
 
 <h2 align="center"><span class="fa fa-calendar-o fa-fw"></span>  Lukujärjestys</h2>
-<p1 align="center"><span class="fa fa-angle-left"></span>  19.11.-23.11.2018  <span class="fa fa-angle-right"></span><br></p1>
+<p1 align="center"><span class="fa fa-angle-left"></span>  12.11.-16.11.2018  <span class="fa fa-angle-right"></span><br></p1>
 
 <br>
 
@@ -170,13 +176,6 @@ p1 {
 
 <br>
 
-<button class="collapsible"><b>10:00 - 13:00   </b>   PA/4012<br>Basic 3D Design with Blender</button>
-<div class="content">
-  <p>Kurssitunnus: MUM8TA001-10 <br>Opettaja: Konsta Ketola</p>
-</div>
-
-<br>
-
 <button class="collapsible"><b>10:00 - 11:45   </b>   PA/6005<br>ICT and Business English</button>
 <div class="content">
   <p>Kurssitunnus: ENG1TN003-40 <br>Opettaja: John Denver</p>
@@ -199,7 +198,7 @@ p1 {
 
 <p class=paiva>Torstai:</p>
 
-<br><br><br>
+<br><br>
 
 <p class=paiva>Perjantai:</p>
 <button class="collapsible"><b>12:00 - 13:30   </b>   PA/K1005<br>Liiketoiminnan matematiikka</button>
@@ -236,12 +235,12 @@ for (i = 0; i < coll.length; i++) {
 }
 
 var coll = document.getElementsByClassName("collapsible collapsipble2");
-var i;
+var e;
 
-for (i = 0; i < coll.length; i++) {
+for (e = 0; e < coll.length; e++) {
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active2");
-    var content = this.nextElementSibling;
+    var content2 = this.nextElementSibling;
     if (content2.style.display === "block") {
       content2.style.display = "none";
     } else {
