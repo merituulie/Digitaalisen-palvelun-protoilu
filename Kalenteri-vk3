@@ -81,16 +81,16 @@ p1 {
 
 
 	
-<p3 align="right"><span class="fa fa-times fa-fw" text-align="right" style="font-size: 35px;"></span></p3>
+<p3 align="right"><span class="fa fa-times fa-fw" text-align="right" style="font-size: 32px;"></span></p3>
 
 <h2 align="center"><span class="fa fa-calendar-o fa-fw"></span>  Lukujärjestys</h2>
 
+<table style ="width:80%" align="center">
 <p1 align="center">
-<a href="https://www.google.com/" target="_blank"><span class="fa fa-angle-left"></span></a>
-26.11.-30.11.2018
-<a href="https://www.google.com/" target="_blank"><span class="fa fa-angle-right"></span></a><br></p1>
-
-<br>
+<a href="https://www.google.com/" target="_blank"><span class="fa fa-angle-left" style="width:50px; height:50px"></span></a>
+12.11.-16.11.2018
+<a href="https://www.google.com/" target="_blank"><span class="fa fa-angle-right" style="width:50px; height:50px"></span></a><br></p1>
+</table>
 
 <table style="width:80%" align="center">
   <tr align="center">
