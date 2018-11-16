@@ -222,40 +222,6 @@ input[type=text], input[type=password] {
     font-size: 15px;
   	margin: auto;
   	display: block;
-
-
-}
-
-
-table {
-	text-align: center;
-}
-
-table.center {
-    margin-left:auto; 
-    margin-right:auto;
-    
-}
-p.paiva {
-    font-weight: bold;
-    text-align: center;
-    width: 100%;
-    color: grey;
-    font-size: 15px
-}
-
-
-}
-
-p.paivamaara {
-    font-size: 20px;
-
-}
-
-p.ruksi {
-    font-size: 10px;
-    color: light-grey;
-
 }
 
 .active, .collapsible {
@@ -267,6 +233,23 @@ p.ruksi {
     
 }
 
+.lukkari {
+	text-align: center;
+}
+
+#hakupalkki {
+    
+}
+
+.paiva {
+     font-weight: bold;
+    text-align: center;
+    width: 100%;
+    font-style: garamond;
+    color: grey;
+    font-size: 15px
+}
+
 .content {
     padding: 5px;
     color: white;
@@ -276,8 +259,9 @@ p.ruksi {
     overflow: hidden;
     background-color: #568C55;
     margin:auto;
-   }
-  
+    font-size: 12px;
+}
+
 .content2 {
     padding: 5px;
     color: white;
@@ -287,4 +271,5 @@ p.ruksi {
     overflow: hidden;
     background-color: #ad2424;
     margin:auto;
+    font-size: 12px;
 }
