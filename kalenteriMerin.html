@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="tyylit.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+<body class=lukkari>
+        <div id="top">
+            <div class="otsikko">Haaga-Helia Launchpad</div>
+            <div class="x"><a href="aloitussivu.html"><i class='fas fa-times'></i></a></div>
+        </div>
+        <h2><span class="fa fa-calendar-o fa-fw"></span>  Lukujärjestys</h2>
+            <table class=lukkari>
+                <p>
+                    <a href="https://www.google.com/" target="_blank"><span class="fa fa-angle-left" style="width:50px; height:50px"></span></a>
+                    12.11.-16.11.2018
+                    <a href="https://www.google.com/" target="_blank"><span class="fa fa-angle-right" style="width:50px; height:50px"></span></a><br></p>
+            </table>
+            <div class="container">
+            <input type="text" placeholder="Hae kurssia, opettajaa.." name="uname">
+                <span class="fa fa-search fa-fw"></span>
+            </div>
+        <p class=paiva>Maanantai:</p>
+            <button class="collapsible"><b>08:00 - 10:30   </b>   PA/6205<br>Opiskelu- ja työelämätaitojen kehittäminen, osa 2</button>
+        <div class=content>
+            <p>COM1TN0101-3003, Markku Mikkonen <br> Linked ja muut työnhakupalvelut</p>
+        </div>
+        <p class=paiva>Tiistai:</p>
+            <button class="collapsible"><b>09:00 - 11:45   </b>   PA/3003<br>Communication in Multicultural Environments</button>
+        <div class=content>
+            <p>COM1TN002-3004, Marja Kukka <br>Facing other cultures in the working enviroment</p>
+        </div>
+        <br>    
+        <button class="collapsible"><b>12:00 - 14:45   </b>   PA/5005<br>Liiketoiminta</button>
+        <div class=content>
+            <p>BUS1TN012-3002, Konsta Ketola <br> Yrityksen toiminnot </p>
+        </div>
+        <br>
+        <button class="collapsible"><b>15:00 - 17:30   </b>   PA/4015<br>Käyttäjäkokemus</button>
+        <div class=content>
+            <p>DIG1TN103-2001, Marko Mittala <br>Haastattelun rakenne ja raportointi</p>
+        </div>
+        <p class=paiva>Keskiviikko:</p>
+        <button class="collapsible"><b>08:00 - 9:45   </b>   PA/4201<br>Vaatimusmäärittely ja vaatimuslähtöinen testaus</button>
+        <div class=content>
+            <p>SWD8TN001-3004, Kalle Keila <br> Asiakaslähöisyyden alkeet </p>
+        </div>
+        <br>
+        <button class="collapsible"><b>10:00 - 11:45   </b>   PA/6005<br>ICT and Business English</button>
+        <div class=content>
+            <p>ENG1TN003-40, John Denver <br> Writing a news article. <font color="red">Dont be absent!</font></p>
+        </div>
+        <br>
+        <button class="collapsible"><b>12:00 - 13:45   </b>   PA/4014<br>Yrityksen toiminnot</button>
+        <div class=content>
+            <p>BUS1TN011-40, Konsta Ketola <br> Tentti klo 12.15 - 15.00, jonka jälkeen läpikäyntiä.</p>
+        </div>
+        <br>
+        <button class="collapsible"><b>14:00 - 16:45   </b>   PA/5005<br>Palvelinohjelmointi</button>
+        <div class=content>
+            <p>SWD4TN020-3001, Konsta Ketola <br> Perusteita </p>
+        </div>
+        <p class=paiva>Torstai:</p>
+            <p>-</p>
+        <p class=paiva>Perjantai:</p>
+        <button class="collapsible"><b>12:00 - 13:30   </b>   PA/K1005<br>Liiketoiminnan matematiikka</button>
+        <div class=content>
+            <p>COM1TN012-3004, Konsta Ketola <br> Talousmatematiikkaa, osa 3. </p>
+        </div>
+        <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+            for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+            });
+        }
+        </script>
+
+</body>
+</html>
